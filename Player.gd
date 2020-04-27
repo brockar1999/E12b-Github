@@ -44,3 +44,4 @@ func _physics_process(delta):
 	rotation_degrees.z = turning
 	
 	translate(-$Reference.transform.basis.z * speed * delta)
+
